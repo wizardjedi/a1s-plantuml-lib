@@ -1,4 +1,3 @@
-@startuml
 'Базовые цвета
 
 !$CLR_RED="#d60f0f"       /' Красный '/
@@ -679,5 +678,3 @@ dAUwkuPeZk1Fre0OMfzW9xwFNKn7_oVRLXS3CFR6CS7mAV_YVr5n3cBP7RtK-1cI_VxjWttVqgXSxrtQ
 f6KUOdWnZ4ioweV_ZXLTN-fSZFuseRbYpWTzUQWlYZJ2-ExVRozWGPg1a3fzVWIv0KovWp-1t8ImFZvz4RaF3EdHvy-eyJTlmcr_KfwtaJ2LM_w48DRV3eov
 sRyeI2yWhYqBs0OGa8x0cBRQGmTY_Cz1nxNiFcLMvE_4MKEPWfaSzWT0uxIa_2inb9BNEG8WWlo_-0i
 }
-
-@enduml
