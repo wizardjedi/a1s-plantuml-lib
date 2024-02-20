@@ -19,15 +19,63 @@ TIP: В случае, если у вас есть более качествен�
 
 === Специальные цвета
 
+=== Корпоративные цвета
+
 == Спрайты
 
-=== Общие правила к созданию спрайтов
+TODO!
 
 === Мобильный операторы РФ
 
+[%header]
+|===
+|Спрайт|Изображение|
+|<$beeline_l> a|image::mobile-operators/beeline_l.png[]|
+|<$beeline_s> a|image::mobile-operators/beeline_s.png[]|
+|<$megafon_l> a|image::mobile-operators/megafon_l.png[]|
+|<$megafon_s> a|image::mobile-operators/megafon_s.png[]|
+|<$motiv_l> a|image::mobile-operators/motiv_l.png[]|
+|<$motiv_s> a|image::mobile-operators/motiv_s.png[]|
+|<$mts_l> a|image::mobile-operators/mts_l.png[]|
+|<$mts_s> a|image::mobile-operators/mts_s.png[]|
+|<$rostelecom_l> a|image::mobile-operators/rostelecom_l.png[]|
+|<$rostelecom_s> a|image::mobile-operators/rostelecom_s.png[]|
+|<$sbermobile_l> a|image::mobile-operators/sbermobile_l.png[]|
+|<$sbermobile_s> a|image::mobile-operators/sbermobile_s.png[]|
+|<$tele2_l> a|image::mobile-operators/tele2_l.png[]|
+|<$tele2_s> a|image::mobile-operators/tele2_s.png[]|
+|<$tinkoff_l> a|image::mobile-operators/tinkoff_l.png[]|
+|<$tinkoff_s> a|image::mobile-operators/tinkoff_s.png[]|
+|<$yota_l> a|image::mobile-operators/yota_l.png[]|
+|<$yota_s> a|image::mobile-operators/yota_s.png[]|
+|===
+
 === SMS-агрегаторы РФ
 
+[%header]
+|===
+|Спрайт|Изображение|
+|<$devino_l> a|image::sms-agregators/devino_l.png[] |
+|<$devino_s> a|image::sms-agregators/devino_s.png[] |
+|<$edna_l> a|image::sms-agregators/edna_l.png[] |
+|<$edna_s> a|image::sms-agregators/edna_s.png[] |
+|<$rapporto_l> a|image::sms-agregators/rapporto_l.png[] |
+|<$rapporto_s> a|image::sms-agregators/rapporto_s.png[] |
+|<$smstraffic_l> a|image::sms-agregators/smstraffic_l.png[] |
+|<$smstraffic_s> a|image::sms-agregators/smstraffic_s.png[] |
+|===
+
 === Instant Messengers
+
+[%header]
+|===
+|Спрайт|Изображение|
+|<$skype_s> a|image::messengers/skype_s.png[] |
+|<$telegram_s> a|image::messengers/telegram_s.png[] |
+|<$viber_s> a|image::messengers/viber_s.png[] |
+|<$whatsapp_s> a|image::messengers/whatsapp_s.png[] |
+|<$zoom_s> a|image::messengers/zoom_s.png[] |
+|===
 
 == Сборка
 
