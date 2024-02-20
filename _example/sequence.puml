@@ -4,7 +4,7 @@
 
 skinparam RoundCorner 7
 
-participant "<color:$CLR_WHITE>participant" as a1 $CLR_RED
+participant "<color:$CLR_WHITE>participant" as a1 $CLR_GREEN
 actor "actor" as a2
 collections "collections" as a3
 database "database" as a4
@@ -14,12 +14,6 @@ boundary "boundary" as a7
 control "control" as a8
 
 a1 -> a2 : req1
-
-note left
-<$a1s_qr>
-end note
-
-
 a2 -> a3 : req2
 a3 -> a4 : req3
 a4 -> a5 : req4

@@ -135,7 +135,7 @@
 
 !if %not(%variable_exists("$GRD_CLR_BG_PRIMARY"))
 
-!global $GRD_CLR_BG_PRIMARY=$CLR_BLUE_200/$CLR_LIGHTBLUE_100    /' Фоновый градиент по умолчанию '/
+!$GRD_CLR_BG_PRIMARY=$CLR_BLUE_200/$CLR_LIGHTBLUE_100    /' Фоновый градиент по умолчанию '/
 
 !endif
 
