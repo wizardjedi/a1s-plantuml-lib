@@ -184,7 +184,7 @@ end
 |`$CLR_YOTA_1`|`#00aeef`|Йота РФ
 |`$CLR_MOTIV_1`|`#fa6600`|Мотив РФ/Екатеринбург-2000
 |`$CLR_ROSTELECOM_1`|`#7700ff`|Ростелеком
-|`$CLR_ROSTELECOM_2`|`#ff4f12`|Ростеоеком
+|`$CLR_ROSTELECOM_2`|`#ff4f12`|Ростелеком
 |`$CLR_DEVINO_1`|`#717fff`|Девино телеком
 |`$CLR_SMSTRAFFIC_1`|`#004b93`|СМС Траффик
 |`$CLR_EDNA_1`|`#00ea43`|ОСК/Эдна
