@@ -133,6 +133,12 @@
 !$GRD_CLR_LIGHTBLUE=$CLR_LIGHTBLUE_300 / $CLR_LIGHTBLUE_100
 !$GRD_CLR_PINK=$CLR_PINK_300 / $CLR_PINK_100
 
+!if %not(%variable_exists("$GRD_CLR_BG_PRIMARY"))
+
+!global $GRD_CLR_BG_PRIMARY=$CLR_BLUE_200/$CLR_LIGHTBLUE_100    /' Фоновый градиент по умолчанию '/
+
+!endif
+
 !$CLR_TELE2_1='#1f2229'
 !$CLR_TELE2_2='#ff59a3'
 !$CLR_TELE2_3='#00b4ee'
@@ -175,7 +181,7 @@
 
 skinparam maxwidth 1024
 
-skinparam objectBackGroundColor $GRD_CLR_BLUE
+skinparam objectBackGroundColor $GRD_CLR_BG_PRIMARY
 skinparam classBackGroundColor $GRD_CLR_GREEN
 skinparam enumBackGroundColor $GRD_CLR_PINK
 skinparam packageBackGroundColor $GRD_CLR_GRAY
@@ -185,16 +191,16 @@ skinparam ObjectBorderRadius 3
 skinparam ClassBorderColor $CLR_GREEN_900
 
 skinparam ParticipantFontColor $CLR_BLACK
-skinparam ParticipantBackgroundColor $GRD_CLR_BLUE
+skinparam ParticipantBackgroundColor $GRD_CLR_BG_PRIMARY
 skinparam ParticipantBorderColor $CLR_BLACK
 skinparam ActorBorderColor $CLR_BLACK
-skinparam ActorBackgroundColor $GRD_CLR_BLUE
-skinparam DatabaseBackgroundColor $GRD_CLR_BLUE
-skinparam CollectionsBackgroundColor $GRD_CLR_BLUE
-skinparam QueueBackgroundColor $GRD_CLR_BLUE
-skinparam ControlBackgroundColor $GRD_CLR_BLUE
-skinparam BoundaryBackgroundColor $GRD_CLR_BLUE
-skinparam EntityBackgroundColor $GRD_CLR_BLUE
+skinparam ActorBackgroundColor $GRD_CLR_BG_PRIMARY
+skinparam DatabaseBackgroundColor $GRD_CLR_BG_PRIMARY
+skinparam CollectionsBackgroundColor $GRD_CLR_BG_PRIMARY
+skinparam QueueBackgroundColor $GRD_CLR_BG_PRIMARY
+skinparam ControlBackgroundColor $GRD_CLR_BG_PRIMARY
+skinparam BoundaryBackgroundColor $GRD_CLR_BG_PRIMARY
+skinparam EntityBackgroundColor $GRD_CLR_BG_PRIMARY
 
 skinparam ParticipantBorderColor $CLR_BLUE_700
 skinparam ParticipantBorderThickness 1.2

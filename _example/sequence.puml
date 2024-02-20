@@ -4,8 +4,6 @@
 
 skinparam RoundCorner 7
 
-
-
 participant "<color:$CLR_WHITE>participant" as a1 $CLR_RED
 actor "actor" as a2
 collections "collections" as a3
