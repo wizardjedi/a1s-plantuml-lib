@@ -4,6 +4,8 @@
 
 title Последовательность обработки
 
+skinparam RoundCorner 30
+
 actor client
 participant "<$a1s_s,scale=0.3,color=$CLR_A1S_1>" as a1s $CLR_WHITE
 participant "<$viber_s,scale=0.3,color=$CLR_VIBER_1>" as viber $CLR_WHITE
