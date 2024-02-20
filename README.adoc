@@ -13,13 +13,61 @@ TIP: В случае, если у вас есть более качествен�
 
 == Подключение
 
+Для подключения библиотеки необходимо либо скачать библиотеку и использовать с локальной файловой системы или импортировать по URL.
+
+.Пример подключения библиотеки по URL
+[source,puml]
+----
+!include https://raw.githubusercontent.com/wizardjedi/a1s-plantuml-lib/master/a1s-lib.puml
+----
+
+WARNING: PlantUML имеет ограничения безопасности по импорту библиотек по URL. Настройки безопасности описаны на соответствующзей странице https://plantuml.com/security
+
 == Мотивация
 
 == Цвета
 
+
+
 === Специальные цвета
 
 === Корпоративные цвета
+
+Для логотипов компаний и сервисов были выделены корпоративные или цвета бренда. Такие цвета записаны в переменных вида `$CLR_<BRAND>_<НОМЕР>` (например, `$CLR_TELE2_1`).
+
+[%header]
+|===
+|Переменная|Значение|Описание
+|`$CLR_TELE2_1`|`#1f2229`|
+|`$CLR_TELE2_2`|`#ff59a3`|
+|`$CLR_TELE2_3`|`#00b4ee`|
+|`$CLR_TELE2_4`|`#c882ff`|
+|`$CLR_MEGAFON_1`|`#00b956`|
+|`$CLR_MEGAFON_2`|`#731982`|
+|`$CLR_MTS_1`|`#cc061a`|
+|`$CLR_BEELINE_1`|`#ffcc00`|
+|`$CLR_BEELINE_2`|`#13171b`|
+|`$CLR_YOTA_1`|`#00aeef`|
+|`$CLR_MOTIV_1`|`#fa6600`|
+|`$CLR_ROSTELECOM_1`|`#7700ff`|
+|`$CLR_ROSTELECOM_2`|`#ff4f12`|
+|`$CLR_DEVINO_1`|`#717fff`|
+|`$CLR_SMSTRAFFIC_1`|`#004b93`|
+|`$CLR_EDNA_1`|`#00ea43`|
+|`$CLR_A1S_1`|`#dc220b`|
+|`$CLR_A1S_2`|`#2c2f30`|
+|`$CLR_VIBER_1`|`#7360f2`|
+|`$CLR_WHATSAPP_1`|`#075E54`|
+|`$CLR_WHATSAPP_2`|`#25D366`|
+|`$CLR_TELEGRAM_1`|`#24A1DE`|
+|`$CLR_SKYPE_1`|`#00AFF0`|
+|`$CLR_ZOOM_1`|`#0B5CFF`|
+|===
+
+.Таблица корпоративных цветов для иллюстрации
+image::_images/img-corporate-colors-table.png[]
+
+WARNING: Цвета были получены из открытых источников. В частности с корпоративных сайтов с использованием инструмента CSS Overview из Chrome Developer Tools.
 
 == Спрайты
 
@@ -30,58 +78,64 @@ card "<$beeline>" as beeline
 rectangle "<$megafon,scale=0.5,color=$CLR_MEGAFON_1>" as megafon $CLR_MEGAFON_2
 ----
 
-TODO!
+* Спрайты разбиты на группы
+** `messengers` - мессенджеры
+** `mobile-operators` - логотипы мобильных операторов
+** `sms-agregators` - логотипы СМС-агрегаторов
+* Для спрайтов приняты следюущие размеры, которые оформляются в виде суффиксов к имени файла
+** `_s` - маленький, только логотип, размер `128px x 128px` (пример, `<$megafon_s>`)
+** `_l` - большой, логотип с названием, максимальный размер по ширине `300px` (пример, `<$motiv_l>`)
 
 === Мобильный операторы РФ
 
 [%header]
 |===
-|Спрайт|Изображение|
-|<$beeline_l> a|image::mobile-operators/beeline_l.png[]|
-|<$beeline_s> a|image::mobile-operators/beeline_s.png[]|
-|<$megafon_l> a|image::mobile-operators/megafon_l.png[]|
-|<$megafon_s> a|image::mobile-operators/megafon_s.png[]|
-|<$motiv_l> a|image::mobile-operators/motiv_l.png[]|
-|<$motiv_s> a|image::mobile-operators/motiv_s.png[]|
-|<$mts_l> a|image::mobile-operators/mts_l.png[]|
-|<$mts_s> a|image::mobile-operators/mts_s.png[]|
-|<$rostelecom_l> a|image::mobile-operators/rostelecom_l.png[]|
-|<$rostelecom_s> a|image::mobile-operators/rostelecom_s.png[]|
-|<$sbermobile_l> a|image::mobile-operators/sbermobile_l.png[]|
-|<$sbermobile_s> a|image::mobile-operators/sbermobile_s.png[]|
-|<$tele2_l> a|image::mobile-operators/tele2_l.png[]|
-|<$tele2_s> a|image::mobile-operators/tele2_s.png[]|
-|<$tinkoff_l> a|image::mobile-operators/tinkoff_l.png[]|
-|<$tinkoff_s> a|image::mobile-operators/tinkoff_s.png[]|
-|<$yota_l> a|image::mobile-operators/yota_l.png[]|
-|<$yota_s> a|image::mobile-operators/yota_s.png[]|
+|Спрайт|Изображение|Размеры
+|`<$beeline_l>` a|image::mobile-operators/beeline_l.png[]| 300x63
+|`<$beeline_s>` a|image::mobile-operators/beeline_s.png[]| 128x128
+|`<$megafon_l>` a|image::mobile-operators/megafon_l.png[]| 300x54
+|`<$megafon_s>` a|image::mobile-operators/megafon_s.png[]| 128x128
+|`<$motiv_l>` a|image::mobile-operators/motiv_l.png[]| 300x56
+|`<$motiv_s>` a|image::mobile-operators/motiv_s.png[]| 128x128
+|`<$mts_l>` a|image::mobile-operators/mts_l.png[]| 300x300
+|`<$mts_s>` a|image::mobile-operators/mts_s.png[]| 128x128
+|`<$rostelecom_l>` a|image::mobile-operators/rostelecom_l.png[]| 300x77
+|`<$rostelecom_s>` a|image::mobile-operators/rostelecom_s.png[]| 128x128
+|`<$sbermobile_l>` a|image::mobile-operators/sbermobile_l.png[]| 300x39
+|`<$sbermobile_s>` a|image::mobile-operators/sbermobile_s.png[]| 128x128
+|`<$tele2_l>` a|image::mobile-operators/tele2_l.png[]| 300x118
+|`<$tele2_s>` a|image::mobile-operators/tele2_s.png[]| 128x128
+|`<$tinkoff_l>` a|image::mobile-operators/tinkoff_l.png[]| 300x92
+|`<$tinkoff_s>` a|image::mobile-operators/tinkoff_s.png[]| 136x128
+|`<$yota_l>` a|image::mobile-operators/yota_l.png[]| 300x95
+|`<$yota_s>` a|image::mobile-operators/yota_s.png[]| 128x128
 |===
 
 === SMS-агрегаторы РФ
 
 [%header]
 |===
-|Спрайт|Изображение|
-|<$devino_l> a|image::sms-agregators/devino_l.png[] |
-|<$devino_s> a|image::sms-agregators/devino_s.png[] |
-|<$edna_l> a|image::sms-agregators/edna_l.png[] |
-|<$edna_s> a|image::sms-agregators/edna_s.png[] |
-|<$rapporto_l> a|image::sms-agregators/rapporto_l.png[] |
-|<$rapporto_s> a|image::sms-agregators/rapporto_s.png[] |
-|<$smstraffic_l> a|image::sms-agregators/smstraffic_l.png[] |
-|<$smstraffic_s> a|image::sms-agregators/smstraffic_s.png[] |
+|Спрайт|Изображение|Размеры
+|`<$devino_l>` a|image::sms-agregators/devino_l.png[] |300x115
+|`<$devino_s>` a|image::sms-agregators/devino_s.png[] |128x128
+|`<$edna_l>` a|image::sms-agregators/edna_l.png[] |300x93
+|`<$edna_s>` a|image::sms-agregators/edna_s.png[] |128x128
+|`<$rapporto_l>` a|image::sms-agregators/rapporto_l.png[] |300x77
+|`<$rapporto_s>` a|image::sms-agregators/rapporto_s.png[] |128x128
+|`<$smstraffic_l>` a|image::sms-agregators/smstraffic_l.png[] |300x50
+|`<$smstraffic_s>` a|image::sms-agregators/smstraffic_s.png[] |128x128
 |===
 
 === Instant Messengers
 
 [%header]
 |===
-|Спрайт|Изображение|
-|<$skype_s> a|image::messengers/skype_s.png[] |
-|<$telegram_s> a|image::messengers/telegram_s.png[] |
-|<$viber_s> a|image::messengers/viber_s.png[] |
-|<$whatsapp_s> a|image::messengers/whatsapp_s.png[] |
-|<$zoom_s> a|image::messengers/zoom_s.png[] |
+|Спрайт|Изображение|Размеры
+|`<$skype_s>` a|image::messengers/skype_s.png[] | 128x128
+|`<$telegram_s>` a|image::messengers/telegram_s.png[] | 128x128
+|`<$viber_s>` a|image::messengers/viber_s.png[] | 128x128
+|`<$whatsapp_s>` a|image::messengers/whatsapp_s.png[] | 128x128
+|`<$zoom_s>` a|image::messengers/zoom_s.png[] | 128x128
 |===
 
 == Сборка
