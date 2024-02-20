@@ -1,0 +1,27 @@
+@startuml
+
+!include https://raw.githubusercontent.com/wizardjedi/a1s-plantuml-lib/master/a1s-lib.puml
+
+title Последовательность обработки
+
+actor client
+participant "<$a1s_s,scale=0.3,color=$CLR_A1S_1>" as a1s $CLR_WHITE
+participant "<$viber_s,scale=0.3,color=$CLR_VIBER_1>" as viber $CLR_WHITE
+participant "<$whatsapp_s,scale=0.3,color=$CLR_WHATSAPP_1>" as whatsapp $CLR_WHITE
+participant "<$telegram_s,scale=0.3,color=$CLR_TELEGRAM_1>" as telegram $CLR_WHITE
+
+client -> a1s
+
+alt $CLR_SUCCESS Успешная отправка
+    a1s --> viber : Отправка сообщения
+else $CLR_ALT Альтернативный сценарий
+    a1s --> whatsapp : Отправка сообщения
+else $CLR_ERROR Ошибка отправки
+    a1s --x viber : Ошибка отправки
+
+    a1s --> whatsapp : Переотправка сообщения
+else $CLR_EXCEPTION Режим аварии
+    a1s --> telegram : Уведомление группы мониторинга
+end
+
+@enduml
