@@ -30,6 +30,7 @@ card "<$beeline>" as beeline
 
 rectangle "<$megafon,scale=0.5,color=$CLR_MEGAFON_1>" as megafon $CLR_MEGAFON_2
 ====
+
 TODO!
 
 === Мобильный операторы РФ
