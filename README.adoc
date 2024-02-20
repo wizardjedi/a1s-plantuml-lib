@@ -81,6 +81,24 @@ devino --> beeline $CLR_BEELINE_1
 
 WARNING: PlantUML имеет ограничения безопасности по импорту библиотек по URL. Настройки безопасности описаны на соответствующзей странице https://plantuml.com/security
 
+=== Пример подключения для Confluence
+
+Плагин PlantUML для Confluence может загружать файлы из приложений к страницам ( https://avono-support.atlassian.net/wiki/spaces/PUML/pages/9699367/Macro+plantuml ).
+
+Для Confluence алгоритм подключения будет таким:
+
+* Скачиваем файл с описанием библиотеки https://raw.githubusercontent.com/wizardjedi/a1s-plantuml-lib/master/a1s-lib.puml
+* Для корневой (или какой-то другой страницы) добавляем файл `a1s-lib.puml`
+* В тексте диаграммы подключаем данный файл с помощью синтаксиса включения
++
+----
+^attachment.ext
+pagetitle
+pagetitle^attachment.ext
+spacekey:pagetitle
+spacekey:pagetitle^attachment.ext
+----
+
 == Цвета
 
 === Специальные цвета
