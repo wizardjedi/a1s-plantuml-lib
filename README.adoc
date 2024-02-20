@@ -35,7 +35,38 @@ image::_example/simple.png[]
 .Пример текста для генерации диаграммы
 [source,puml]
 ----
-include::_example/simple.puml[]
+@startuml
+
+title Схема прохождения трафика
+
+!include https://raw.githubusercontent.com/wizardjedi/a1s-plantuml-lib/master/a1s-lib.puml
+
+rectangle "<$megafon_s,scale=0.5,color=$CLR_MEGAFON_1>" as megafon
+rectangle "<$mts_s,scale=0.5,color=$CLR_MTS_1>" as mts
+rectangle "<$beeline_s,scale=0.5>" as beeline $CLR_BEELINE_1
+rectangle "<$tele2_s,scale=0.5,color=$CLR_TELE2_1>" as tele2
+
+rectangle "<$smstraffic_s,scale=0.5,color=$CLR_SMSTRAFFIC_1>\nSMS Traffic" as smstraffic
+rectangle "<$devino_s,scale=0.5,color=$CLR_DEVINO_1>\nDevino Telecom" as devino
+
+left to right direction
+
+actor client
+
+client --> smstraffic : smpp 50%
+client --> devino : smpp 50%
+
+smstraffic --> tele2
+smstraffic --> mts $CLR_MTS_1
+smstraffic --> megafon $CLR_MEGAFON_1
+smstraffic --> beeline $CLR_BEELINE_1
+
+devino --> tele2
+devino --> mts $CLR_MTS_1
+devino --> megafon $CLR_MEGAFON_1
+devino --> beeline $CLR_BEELINE_1
+
+@enduml
 ----
 
 == Подключение
