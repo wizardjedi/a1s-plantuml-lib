@@ -192,6 +192,33 @@ skinparam ActorBackgroundColor $GRD_CLR_BLUE
 skinparam DatabaseBackgroundColor $GRD_CLR_BLUE
 skinparam CollectionsBackgroundColor $GRD_CLR_BLUE
 skinparam QueueBackgroundColor $GRD_CLR_BLUE
+skinparam ControlBackgroundColor $GRD_CLR_BLUE
+skinparam BoundaryBackgroundColor $GRD_CLR_BLUE
+skinparam EntityBackgroundColor $GRD_CLR_BLUE
+
+skinparam ParticipantBorderColor $CLR_BLUE_700
+skinparam ParticipantBorderThickness 1.2
+
+skinparam ActorBorderColor $CLR_BLUE_700
+skinparam ActorBorderThickness 1.2
+
+skinparam CollectionsBorderColor $CLR_BLUE_700
+skinparam CollectionsBorderThickness 1.2
+
+skinparam DatabaseBorderColor $CLR_BLUE_700
+skinparam DatabaseBorderThickness 1.2
+
+skinparam QueueBorderColor $CLR_BLUE_700
+skinparam QueueBorderThickness 1.2
+
+skinparam EntityBorderColor $CLR_BLUE_700
+skinparam EntityBorderThickness 1.2
+
+skinparam BoundaryBorderColor $CLR_BLUE_700
+skinparam BoundaryBorderThickness 1.2
+
+skinparam ControlBorderColor $CLR_BLUE_700
+skinparam ControlBorderThickness 1.2
 
 sprite $a1s_s [128x128/16z] {
 xPk7akiy28LzGCMTzt_QloIPgp6xO6r6tFvDJ_49qW4HXqo_4d_vory0-W_WXuXJtkN5dF2zrNcM2vM-Q-opV23ZUwcZo6SSwVl89x5OA5wT5d4e25QlOX9l

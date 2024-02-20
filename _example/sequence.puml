@@ -1,0 +1,23 @@
+@startuml
+
+!include https://raw.githubusercontent.com/wizardjedi/a1s-plantuml-lib/master/a1s-lib.puml
+
+
+participant "participant"  as a1
+actor "actor" as a2
+collections "collections" as a3
+database "database" as a4
+queue "queue" as a5
+entity "entity" as a6
+boundary "boundary" as a7
+control "control" as a8
+
+a1 -> a2 : req1
+a2 -> a3 : req2
+a3 -> a4 : req3
+a4 -> a5 : req4
+a5 -> a6 : req5
+a6 -> a7 : req6
+a7 -> a8 : req7
+
+@enduml

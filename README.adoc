@@ -99,6 +99,15 @@ spacekey:pagetitle
 spacekey:pagetitle^attachment.ext
 ----
 
+Например, для пространства `superspace` и страницы `Space Home`.
+
+[source,puml]
+----
+...
+!include superspace:Space home^a1s-lib.puml
+...
+----
+
 == Цвета
 
 Для использования на диаграммах были выделены базовые цвета и дополнительно созданы оттенки данных базовых цветов для использования.
