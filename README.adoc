@@ -210,7 +210,7 @@ end
 |===
 
 .Таблица корпоративных цветов для иллюстрации
-image::_images/img-corporate-colors-table.png[]
+image::_example/corporate-colors.png[]
 
 WARNING: Цвета были получены из открытых источников. В частности с корпоративных сайтов с использованием инструмента CSS Overview из Chrome Developer Tools.
 

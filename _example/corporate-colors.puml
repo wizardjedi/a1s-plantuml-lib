@@ -1,0 +1,34 @@
+@startuml
+
+!include ../a1s-lib.puml
+
+skinparam RectangleFontColor automatic
+
+rectangle "CLR_TELE2_1" as rCLR_TELE2_1 $CLR_TELE2_1
+rectangle "CLR_TELE2_2" as rCLR_TELE2_2 $CLR_TELE2_2
+rectangle "CLR_TELE2_3" as rCLR_TELE2_3 $CLR_TELE2_3
+rectangle "CLR_TELE2_4" as rCLR_TELE2_4 $CLR_TELE2_4
+rectangle "CLR_MEGAFON_1" as rCLR_MEGAFON_1 $CLR_MEGAFON_1
+rectangle "CLR_MEGAFON_2" as rCLR_MEGAFON_2 $CLR_MEGAFON_2
+rectangle "CLR_MTS_1" as rCLR_MTS_1 $CLR_MTS_1
+rectangle "CLR_BEELINE_1" as rCLR_BEELINE_1 $CLR_BEELINE_1
+rectangle "CLR_BEELINE_2" as rCLR_BEELINE_2 $CLR_BEELINE_2
+rectangle "CLR_YOTA_1" as rCLR_YOTA_1 $CLR_YOTA_1
+rectangle "CLR_MOTIV_1" as rCLR_MOTIV_1 $CLR_MOTIV_1
+rectangle "CLR_ROSTELECOM_1" as rCLR_ROSTELECOM_1 $CLR_ROSTELECOM_1
+rectangle "CLR_ROSTELECOM_2" as rCLR_ROSTELECOM_2 $CLR_ROSTELECOM_2
+rectangle "CLR_DEVINO_1" as rCLR_DEVINO_1 $CLR_DEVINO_1
+rectangle "CLR_SMSTRAFFIC_1" as rCLR_SMSTRAFFIC_1 $CLR_SMSTRAFFIC_1
+rectangle "CLR_EDNA_1" as rCLR_EDNA_1 $CLR_EDNA_1
+rectangle "CLR_A1S_1" as rCLR_A1S_1 $CLR_A1S_1
+rectangle "CLR_A1S_2" as rCLR_A1S_2 $CLR_A1S_2
+rectangle "CLR_PROTEY_1" as rCLR_PROTEY_1 $CLR_PROTEY_1
+rectangle "CLR_BERKUT_1" as rCLR_BERKUT_1 $CLR_BERKUT_1
+rectangle "CLR_VIBER_1" as rCLR_VIBER_1 $CLR_VIBER_1
+rectangle "CLR_WHATSAPP_1" as rCLR_WHATSAPP_1 $CLR_WHATSAPP_1
+rectangle "CLR_WHATSAPP_2" as rCLR_WHATSAPP_2 $CLR_WHATSAPP_2
+rectangle "CLR_TELEGRAM_1" as rCLR_TELEGRAM_1 $CLR_TELEGRAM_1
+rectangle "CLR_SKYPE_1" as rCLR_SKYPE_1 $CLR_SKYPE_1
+rectangle "CLR_ZOOM_1" as rCLR_ZOOM_1 $CLR_ZOOM_1
+
+@enduml
