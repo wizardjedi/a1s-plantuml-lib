@@ -2,6 +2,8 @@
 
 !include ../a1s-lib.puml
 
+skinparam RectangleFontColor automatic
+
 rectangle "GRD_CLR_RED" as r1 $GRD_CLR_RED
 rectangle "GRD_CLR_BLUE" as r2 $GRD_CLR_BLUE
 rectangle "GRD_CLR_GREEN" as r3 $GRD_CLR_GREEN
