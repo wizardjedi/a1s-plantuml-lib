@@ -2,4 +2,17 @@
 
 !include ../a1s-lib.puml
 
+rectangle "GRD_CLR_RED" as r1 $GRD_CLR_RED
+rectangle "GRD_CLR_BLUE" as r2 $GRD_CLR_BLUE
+rectangle "GRD_CLR_GREEN" as r3 $GRD_CLR_GREEN
+rectangle "GRD_CLR_ORANGE" as r4 $GRD_CLR_ORANGE
+rectangle "GRD_CLR_YELLOW" as r5 $GRD_CLR_YELLOW
+rectangle "GRD_CLR_PURPLE" as r6 $GRD_CLR_PURPLE
+rectangle "GRD_CLR_BROWN" as r7 $GRD_CLR_BROWN
+rectangle "GRD_CLR_GRAY" as r8 $GRD_CLR_GRAY
+rectangle "GRD_CLR_LIGHTBLUE" as r9 $GRD_CLR_LIGHTBLUE
+rectangle "GRD_CLR_PINK" as r10 $GRD_CLR_PINK
+
+rectangle "GRD_CLR_BG_PRIMARY" as r11 $GRD_CLR_BG_PRIMARY
+
 @enduml
