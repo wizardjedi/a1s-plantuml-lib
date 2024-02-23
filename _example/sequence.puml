@@ -1,11 +1,12 @@
 @startuml
 
-!include https://raw.githubusercontent.com/wizardjedi/a1s-plantuml-lib/master/a1s-lib.puml
+!include ../a1s-lib.puml
 
-skinparam RoundCorner 7
-
-participant "<color:$CLR_WHITE>participant" as a1 $CLR_GREEN
+box assadasdsad $GRD_CLR_GREEN
+participant "<color:$CLR_WHITE>participant" as a1 $CLR_BLUE_800/%substr($CLR_BLUE_400,1,6)
 actor "actor" as a2
+end box
+
 collections "collections" as a3
 database "database" as a4
 queue "queue" as a5
@@ -16,8 +17,10 @@ control "control" as a8
 a1 -> a2 : req1
 a2 -> a3 : req2
 a3 -> a4 : req3
+
 a4 -> a5 : req4
 a5 -> a6 : req5
+
 a6 -> a7 : req6
 a7 -> a8 : req7
 

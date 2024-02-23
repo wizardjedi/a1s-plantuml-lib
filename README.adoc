@@ -221,16 +221,27 @@ WARNING: Цвета были получены из открытых источн
 [%header]
 |===
 |Переменная|Описание
-|`GRD_CLR_RED`|Красный градиент
-|`GRD_CLR_BLUE`|Синий градиент
-|`GRD_CLR_GREEN`|Зелёный градиент
-|`GRD_CLR_ORANGE`|Оранжевый градиент
-|`GRD_CLR_YELLOW`|Жёлтый градиент
-|`GRD_CLR_PURPLE`|Фиолетовый градиент
-|`GRD_CLR_BROWN`|Коричневый градиент
-|`GRD_CLR_GRAY`|Серый градиент
-|`GRD_CLR_LIGHTBLUE`|Голубой градиент
-|`GRD_CLR_PINK`|Розовый градиент
+|`$GRD_CLR_RED`|Красный градиент
+|`$GRD_CLR_BLUE`|Синий градиент
+|`$GRD_CLR_GREEN`|Зелёный градиент
+|`$GRD_CLR_ORANGE`|Оранжевый градиент
+|`$GRD_CLR_YELLOW`|Жёлтый градиент
+|`$GRD_CLR_PURPLE`|Фиолетовый градиент
+|`$GRD_CLR_BROWN`|Коричневый градиент
+|`$GRD_CLR_GRAY`|Серый градиент
+|`$GRD_CLR_LIGHTBLUE`|Голубой градиент
+|`$GRD_CLR_PINK`|Розовый градиент
+|`$GRD_CLR_DARK_RED`|Тёмный красный градиент
+|`$GRD_CLR_DARK_BLUE`|Тёмный синий градиент
+|`$GRD_CLR_DARK_GREEN`|Тёмный зелёный градиент
+|`$GRD_CLR_DARK_ORANGE`|Тёмный оранжевый градиент
+|`$GRD_CLR_DARK_YELLOW`|Тёмный жёлтый градиент
+|`$GRD_CLR_DARK_PURPLE`|Тёмный фиолетовый градиент
+|`$GRD_CLR_DARK_BROWN`|Тёмный коричневый градиент
+|`$GRD_CLR_DARK_GRAY`|Тёмный серый градиент
+|`$GRD_CLR_DARK_LIGHTBLUE`|Тёмный голубой градиент
+|`$GRD_CLR_DARK_PINK`|Тёмный розовый градиент
+
 |===
 
 image::_example/gradients.png[]
