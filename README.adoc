@@ -238,6 +238,10 @@ rectangle "<$megafon,scale=0.5,color=$CLR_MEGAFON_1>" as megafon $CLR_MEGAFON_2
 |Спрайт|Изображение|Размеры
 |`<$a1s_l>` a|image::vendors/a1s_l.png[] | 300x105
 |`<$a1s_s>` a|image::vendors/a1s_s.png[] | 128x128
+|`<$protey_l>` a|image::vendors/protey_l.png[] | 300x105
+|`<$protey_s>` a|image::vendors/protey_s.png[] | 128x128
+|`<$berkut_l>` a|image::vendors/berkut_l.png[] | 300x105
+|`<$berkut_s>` a|image::vendors/berkut_s.png[] | 128x128
 |===
 
 === Мобильный операторы РФ
