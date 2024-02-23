@@ -199,6 +199,8 @@ end
 |`$CLR_EDNA_1`|`#00ea43`|ОСК/Эдна
 |`$CLR_A1S_1`|`#dc220b`|А1 Системс
 |`$CLR_A1S_2`|`#2c2f30`|А1 Системс
+|`$CLR_PROTEY_1`|`#009cf7`|НТЦ Протей
+|`$CLR_BERKUT_1`|`#2070FD`|Беркут
 |`$CLR_VIBER_1`|`#7360f2`|Viber/Вайбер
 |`$CLR_WHATSAPP_1`|`#075E54`|WhatsApp
 |`$CLR_WHATSAPP_2`|`#25D366`|WhatsApp
