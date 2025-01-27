@@ -154,6 +154,13 @@
 
 !endif
 
+!$CLR_T2_1='#000000'
+!$CLR_T2_2='#ffffff'
+!$CLR_T2_3='#ff3495'
+!$CLR_T2_4='#a7fc00'
+!$CLR_T2_5='#0000ff'
+!$CLR_T2_6='#00bfff'
+
 !$CLR_TELE2_1='#1f2229'
 !$CLR_TELE2_2='#ff59a3'
 !$CLR_TELE2_3='#00b4ee'
