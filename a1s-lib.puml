@@ -1,5 +1,7 @@
 'Базовые цвета
 
+!$A1S_LIB_VERSION="1.1.0" /' Версия библиотеки '/
+
 !$CLR_RED="#d60f0f"       /' Красный '/
 !$CLR_BLUE="#1053b0"      /' Синий '/
 !$CLR_GREEN="#37750b"     /' Зелёный '/
@@ -119,7 +121,7 @@
 'Специальные цвета
 !$CLR_SUCCESS=$CLR_GREEN_100     /' Успешно '/
 !$CLR_ERROR=$CLR_RED_100         /' Ошибка '/
-!$CLR_ALT=$CLR_BLUE_100          /' Альтернатива '/
+!$CLR_ALT=$CLR_BLUE_200          /' Альтернатива '/
 !$CLR_EXCEPTION=$CLR_PURPLE_200  /' Исключение '/
 
 !$GRD_CLR_RED=$CLR_RED_300 / %substr($CLR_RED_100, 1, 6)
@@ -916,3 +918,9 @@ f6KUOdWnZ4ioweV_ZXLTN-fSZFuseRbYpWTzUQWlYZJ2-ExVRozWGPg1a3fzVWIv0KovWp-1t8ImFZvz
 sRyeI2yWhYqBs0OGa8x0cBRQGmTY_Cz1nxNiFcLMvE_4MKEPWfaSzWT0uxIa_2inb9BNEG8WWlo_-0i
 }
 
+sprite $t2_l [300x300/16z] {
+xT0n0G00102mqwb_Mnbyi4LOFWO0000000000000000000000000000000000D7XofKhLwvShUFAbIjNhbovSkNAbIjNhbovSkNAbIjNhbovSkNAbIjNhbov
+SkNAbIjNhbovSkNAbIjNhbm100000000000000000000000000000000000000000000000000000000000005
+}
+
+sprite $t2_s [128x128/16z] xSsn0G0G302mqUZ_RprW0cYJ1rAt0G00001AHyJVx_Vx_Nw_tpyF00000000000Q

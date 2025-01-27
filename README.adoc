@@ -138,6 +138,9 @@ spacekey:pagetitle^attachment.ext
 .Палитра цветов
 image::_images/img-color-palette.png[]
 
+.Цвета в PlantUML
+image::_example/colors.png[]
+
 === Специальные цвета
 
 В диаграммах (особенно даиграммах последовталеьностей) часто используются альтернативные ветки исполнения. Например, успешны сценарий, ошибочный, некоторое количество алтернатив и исключения.
@@ -297,12 +300,20 @@ rectangle "<$megafon,scale=0.5,color=$CLR_MEGAFON_1>" as megafon $CLR_MEGAFON_2
 |`<$rostelecom_s>` a|image::mobile-operators/rostelecom_s.png[]| 128x128
 |`<$sbermobile_l>` a|image::mobile-operators/sbermobile_l.png[]| 300x39
 |`<$sbermobile_s>` a|image::mobile-operators/sbermobile_s.png[]| 128x128
-|`<$tele2_l>` a|image::mobile-operators/tele2_l.png[]| 300x118
-|`<$tele2_s>` a|image::mobile-operators/tele2_s.png[]| 128x128
+|`<$t2_l>` a|image::mobile-operators/t2_l.png[]| 300x300
+|`<$t2_s>` a|image::mobile-operators/t2_s.png[]| 128x128
 |`<$tinkoff_l>` a|image::mobile-operators/tinkoff_l.png[]| 300x92
 |`<$tinkoff_s>` a|image::mobile-operators/tinkoff_s.png[]| 136x128
 |`<$yota_l>` a|image::mobile-operators/yota_l.png[]| 300x95
 |`<$yota_s>` a|image::mobile-operators/yota_s.png[]| 128x128
+|===
+
+.Старые версии логотипов
+[%header]
+|===
+|Спрайт|Изображение|Размеры|Дата смены
+|`<$tele2_l>` a|image::mobile-operators/tele2_l.png[]| 300x118 | 2024-12-31
+|`<$tele2_s>` a|image::mobile-operators/tele2_s.png[]| 128x128 | 2024-12-31
 |===
 
 === SMS-агрегаторы РФ
@@ -333,6 +344,23 @@ rectangle "<$megafon,scale=0.5,color=$CLR_MEGAFON_1>" as megafon $CLR_MEGAFON_2
 |===
 
 == Сборка
+
+Базой для сборки библиотеки является метаописание компонентов в виде JSON объектов. Мета описание располагается в файле `meta.json`.
+
+Для сборки используется PHP-скрипт, который собирает библиотеку из составных частей.
+
+.Сборка из командной строки
+[source,shell]
+----
+$ php build.php
+----
+
+.Сборка в Docker-контейнере
+[source,shell]
+----
+$ docker run --rm -it ..... build.php
+----
+
 
 == Общий алгоритм к созданию спрайтов
 
